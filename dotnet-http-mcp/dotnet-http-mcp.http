@@ -1,0 +1,21 @@
+@dotnet_http_mcp_HostAddress = http://localhost:5012
+
+POST {{dotnet_http_mcp_HostAddress}}/
+Accept: application/json, text/event-stream
+Content-Type: application/json
+
+{
+	"jsonrpc": "2.0",
+	"id": 1,
+	"method": "initialize",
+	"params": {
+		"protocolVersion": "2025-06-18",
+		"capabilities": {},
+		"clientInfo": {
+			"name": "dotnet-http-mcp.http",
+			"version": "1.0.0"
+		}
+	}
+}
+
+###

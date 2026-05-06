@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "dotnet-http-mcp": {
+      "type": "http",
+      "url": "http://localhost:5012"
+    }
+  }
+}
