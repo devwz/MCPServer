@@ -1,0 +1,9 @@
+{
+    "servers": {
+        "simple-mcp-dotnet": {
+            "type": "stdio",
+            "command": "dotnet",
+            "args": ["run", "--project", "${workspaceFolder}/simple-mcp-dotnet.csproj"]
+        }
+    }
+}
