@@ -1,7 +1,7 @@
 ﻿using ModelContextProtocol.Server;
 using ModelContextProtocol.Protocol;
 
-const string connectionString = "Data Source=(LocalDb)\\MSSQLLocalDB;Initial Catalog=inventory-mkt;Integrated Security=SSPI";
+const string connectionString = "Data Source=(LocalDb)\\MSSQLLocalDB;Initial Catalog=[DATABASE_NAME];Integrated Security=SSPI";
 
 McpServer server = McpServer.Create(
     new StdioServerTransport("dotnet-sqlclient-mcp"),
