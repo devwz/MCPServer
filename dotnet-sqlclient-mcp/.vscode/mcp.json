@@ -1,0 +1,9 @@
+{
+    "servers": {
+        "dotnet-sqlclient-mcp": {
+            "type": "stdio",
+            "command": "dotnet",
+            "args": ["run", "--project", "${workspaceFolder}/dotnet-sqlclient-mcp.csproj"]
+        }
+    }
+}
